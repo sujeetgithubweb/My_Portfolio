@@ -1,0 +1,794 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* below is the code for mobile */
+
+@media only screen and (max-width: 990px) {
+  body {
+    position: relative;
+  }
+  #title {
+    /* display: block; */
+    position: absolute;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    z-index: 2;
+    background-color: white;
+    color: lightskyblue;
+  }
+
+  .colo {
+    color: lightskyblue;
+  }
+
+  .name {
+    position: absolute;
+    left: 40%;
+    font-size: larger;
+    font-weight: 500;
+  }
+  .role {
+    position: relative;
+    top: 25px;
+    left: 38%;
+    color: black;
+  }
+  #btn {
+    position: absolute;
+    z-index: 999;
+    top: 4px;
+    left: 0px;
+    font-size: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: lightskyblue;
+  }
+
+  #side-nav {
+    top: 0px;
+    position: absolute;
+    position: fixed;
+    z-index: 999;
+    width: 22%;
+    line-height: 64px;
+    display: none;
+
+    /* display: none; */
+
+    background-color: white;
+  }
+  ul {
+    padding-left: 0px !important;
+  }
+  ul li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+  }
+  ul li i {
+    margin: 0 5px;
+  }
+  main {
+    background: url(/Images/background/Rectangle\ 3.png) repeat !important;
+    /* box-shadow: none; */
+  }
+
+  #intro {
+    height: 525px;
+    width: auto;
+    background-color: white;
+    z-index: 555;
+    overflow: hidden;
+    background-image: url(../Images/background/source-gf34109a56_640.jpg);
+    background-size: 120% auto;
+    opacity: 100%;
+  }
+  #About {
+    height: 520px;
+    width: auto;
+    /* background-color: white; */
+    z-index: 555;
+  }
+  #A-1 {
+    height: 50px;
+    width: 100%;
+    background-color: lightskyblue;
+    position: relative;
+    z-index: 0;
+    top: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 480;
+  }
+  #a-contain {
+    padding-top: 100px !important;
+  }
+  #Experience {
+    height: auto;
+    width: auto;
+    /* background-color: white; */
+    z-index: 555;
+  }
+  #card-1 {
+    position: relative;
+    top: 100px;
+  }
+  #card-2 {
+    position: relative;
+    top: 150px;
+  }
+  #A-2 {
+    height: 50px;
+    width: 100%;
+    background-color: lightskyblue;
+    position: relative;
+    z-index: 0;
+    top: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 480;
+  }
+  #Projects {
+    top: 150px;
+    position: relative;
+    height: auto;
+    width: auto;
+    /* background-color: lightskyblue; */
+    z-index: 0;
+  }
+  
+  .card-reveal{
+    display: none;
+/* list-style-type: none; */
+/* text-decoration: none; */
+  }
+  #wraper {
+    position: relative;
+    top: 100px;
+  }
+  #card-3 {
+    position: relative;
+    top: 100px;
+  }
+  #A-3 {
+    height: 50px;
+    width: 100%;
+    background-color: lightskyblue;
+    position: relative;
+    z-index: 0;
+    top: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 480;
+  }
+
+  #Skills {
+    position: relative;
+    height: auto;
+    width: auto;
+    /* background-color: white; */
+    z-index: 0;
+  }
+  #A-4 {
+    height: 50px;
+    width: 100%;
+    background-color: lightskyblue;
+    position: relative;
+    z-index: 0;
+    top: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 480;
+  }
+  #card-4 {
+    position: relative;
+    top: 50px;
+  }
+  #Education {
+    height: auto;
+    width: auto;
+    z-index: 0;
+  }
+  #A-5 {
+    height: 50px;
+    width: 100%;
+    background-color: lightskyblue;
+    position: relative;
+    z-index: 0;
+    top: 0px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 480;
+  }
+  #Contact {
+    height: auto;
+    width: auto;
+    /* background-color: white; */
+    z-index: 0;
+  }
+  #A-6 {
+    height: 50px;
+    width: 100%;
+    background-color: lightskyblue;
+    position: relative;
+    z-index: 0;
+    top: 0px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 480;
+  }
+  .hide-on-small-only{
+    display: none;
+  }
+}
+
+/* below is the code for desktop. */
+
+@media only screen and (min-width: 991px) {
+
+.hide-only-desktop{
+    display: none;
+}
+.logo{
+  padding: 5%;
+}
+#name{
+    color: lightskyblue;
+    font-size: 30px;
+    /* padding:0 2%; */
+
+}
+.role-1{
+    color: black;
+    /* padding:0 5%; */
+}
+ul {
+    padding-left: 0px !important;
+  }
+  ul li a {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+ul li i {
+      margin: 0 10px;
+      color: lightskyblue;
+  }
+
+
+.hide-on-small-only{
+    position: relative;
+    background-color: white;
+    overflow: hidden;
+    z-index: 99999;
+    left: 0;
+    margin: 0;
+}
+.side-nav-fixed-section{
+    height: 100%;
+    padding: 0;
+    background-color: white;
+    list-style-type: none;
+    position: fixed;
+    left: 0;
+    width: 17%;
+    overflow: hidden;
+    line-height: 64px;
+    font-size: 16px;
+    text-decoration: none;
+
+}
+
+
+main {
+width: 100%;
+padding-left: 17%;
+background: url(/Images/background/Rectangle\ 3.png) repeat !important;
+}
+
+#intro{
+    height: 583px;
+    background-image: url(../Images/background/source-gf34109a56_640.jpg);
+    background-size: 100% auto;
+}
+
+#About{
+height: 600px;
+position: relative;
+line-height: 2.2rem;
+font-size: 20px;
+}
+#A-1{
+    position: relative;
+    height: 100px;
+    width: 100%;
+    padding: 30px 40px;
+    text-align: left;
+    font-size: 3rem;
+    line-height: 2rem;
+    font-weight: 200;
+    background-color: lightskyblue;
+}
+
+#a-contain{
+  padding: 20px;
+}
+#Experience{
+list-style-type: none;
+position: relative;
+}
+#A-2{
+  position: relative;
+  height: 100px;
+  width: 100%;
+  padding: 30px 40px;
+  text-align: left;
+  font-size: 3rem;
+  line-height: 2rem;
+  font-weight: 200;
+  background-color: lightskyblue;
+}
+
+#Projects{
+  position: relative;
+  list-style-type: none;
+text-decoration: none;
+}
+
+#A-3{
+  position: relative;
+  height: 100px;
+  width: 100%;
+  padding: 30px 40px;
+  text-align: left;
+  font-size: 3rem;
+  line-height: 2rem;
+  font-weight: 200;
+  background-color: lightskyblue;
+}
+.card-reveal{
+  display: none;
+/* list-style-type: none; */
+/* text-decoration: none; */
+}
+#Skills{
+position: relative;
+}
+#A-4{
+  position: relative;
+  height: 100px;
+  width: 100%;
+  padding: 30px 40px;
+  text-align: left;
+  font-size: 3rem;
+  line-height: 2rem;
+  font-weight: 200;
+  background-color: lightskyblue;
+}
+#Education{
+position: relative;
+}
+#A-5{
+  position: relative;
+  height: 100px;
+  width: 100%;
+  padding: 30px 40px;
+  text-align: left;
+  font-size: 3rem;
+  line-height: 2rem;
+  font-weight: 200;
+  background-color: lightskyblue;
+}
+#Contact{
+position: relative;
+}
+#A-6{
+  position: relative;
+  height: 100px;
+  width: 100%;
+  padding: 30px 40px;
+  text-align: left;
+  font-size: 3rem;
+  line-height: 2rem;
+  font-weight: 200;
+  background-color: lightskyblue;
+}
+}
+
+#box {
+  margin: auto;
+  height: 200px;
+  width: 200px;
+  background-color: lightskyblue;
+}
+
+.hours-properties {
+  position: absolute;
+  height: 3px;
+  width: 9px;
+  background-color: yellow;
+}
+
+.hours-quater {
+  position: absolute;
+  height: 12px;
+  width: 4px;
+  background-color: yellow;
+}
+.min{
+  position: absolute;
+  height: 5px;
+  width: 2px;
+  background-color: white;
+}
+
+#clock {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: black;
+  position: relative;
+}
+
+#center {
+  position: absolute;
+  height: 8px;
+  width: 8px;
+  left: 96px;
+  top: 96px;
+  border-radius: 50%;
+  background-color: #fff;
+  z-index: 1;
+}
+
+#h12 {
+  left:98px;
+  top: 0px;
+  font-size: 40px;
+}
+
+#h1 {
+  left: 143.5px;
+  top: 15px;
+  transform: rotate(120deg);
+}
+
+#h2 {
+  left: 177px;
+  top: 48px;
+  transform: rotate(150deg);
+}
+
+#h3 {
+  left: 192px;
+  top: 98px;
+  transform: rotate(90deg);
+}
+
+#h4 {
+  left: 178.2px;
+  top: 147px;
+  transform: rotate(210deg);
+}
+
+#h5 {
+  left: 146px;
+  top: 180px;
+  transform: rotate(240deg);
+}
+
+#h6 {
+  left: 98px;
+  top: 188px;
+  transform: rotate(180deg);
+}
+
+#h7 {
+  left: 45px;
+  top: 179px;
+  transform: rotate(300deg);
+}
+
+#h8 {
+  left: 12.4px;
+  top: 145px;
+  transform: rotate(330deg);
+}
+
+#h9 {
+  left: 4px;
+  top: 98px;
+  transform: rotate(90deg);
+}
+
+#h10 {
+  left: 13px;
+  top: 49.2px;
+  transform: rotate(390deg);
+}
+
+#h11 {
+  left: 49px;
+  top: 15px;
+  transform: rotate(420deg);
+}
+#m1{
+  left: 110px;
+  top: 0.6px;
+  transform: rotate(6deg);
+}
+#m2{
+  left: 120.4px;
+  top: 2.3px;
+  transform: rotate(12deg);
+}
+#m3{
+  left: 128.67px;
+  top: 4px;
+  transform: rotate(18deg);
+}
+#m4{
+  left: 138.21px;
+  top: 8px;
+  transform: rotate(24deg);
+}
+#m6{
+  left: 155px;
+  top: 17px;
+  transform: rotate(36deg);
+}
+#m7{
+  left: 163px;
+  top: 23.5px;
+  transform: rotate(42deg);
+}
+#m8{
+  left: 170px;
+  top: 30.5px;
+  transform: rotate(48deg);
+}
+#m9{
+  left: 176px;
+  top: 37.5px;
+  transform: rotate(54deg);
+}
+#m11{
+  left: 187.5px;
+  top: 56px;
+  transform: rotate(66deg);
+}
+#m12{
+  left: 191.5px;
+  top: 66px;
+  transform: rotate(72deg);
+}
+#m13{
+  left: 194.5px;
+  top: 77px;
+  transform: rotate(78deg);
+}
+#m14{
+  left: 196.3px;
+  top: 88.3px;
+  transform: rotate(84deg);
+}
+#m16{
+  left: 195.4px;
+  top: 113px;
+  transform: rotate(96deg);
+}
+#m17{
+  left: 193.5px;
+  top: 122px;
+  transform: rotate(102deg);
+}
+#m18{
+  left: 191px;
+  top: 130.71px;
+  transform: rotate(108deg);
+}
+#m19{
+  left: 187.71px;
+  top: 138px;
+  transform: rotate(115deg);
+}
+#m21{
+  left: 178px;
+  top: 155px;
+  transform: rotate(125deg);
+}
+#m22{
+  left: 172px;
+  top: 162px;
+  transform: rotate(130deg);
+}
+#m23{
+  left: 165.5px;
+  top: 169px;
+  transform: rotate(136deg);
+}
+#m24{
+  left: 159px;
+  top: 175px;
+  transform: rotate(142deg);
+}
+#m26{
+  left: 139.7px;
+  top: 186.11px;
+  transform: rotate(156deg);
+}
+#m27{
+  left: 131px;
+  top: 189.55px;
+  transform: rotate(162deg);
+}
+#m28{
+  left: 121px;
+  top: 192.5px;
+  transform: rotate(168deg);
+}
+#m29{
+  left: 110px;
+  top: 194.3px;
+  transform: rotate(174deg);
+}
+#m31{
+  left: 86.8px;
+  top: 194.99px;
+  transform: rotate(186deg);
+}
+#m32{
+  left: 76px;
+  top: 192.18px;
+  transform: rotate(192deg);
+}
+#m33{
+  left: 65.4px;
+  top: 188.95px;
+  transform: rotate(198deg);
+}
+#m34{
+  left: 55.4px;
+  top: 184.91px;
+  transform: rotate(204deg);
+}
+#m36{
+  left: 38px;
+  top: 174.41px;
+  transform: rotate(216deg);
+}
+#m37{
+  left: 31.4px;
+  top: 168.94px;
+  transform: rotate(222deg);
+}
+#m38{
+  left: 25.68px;
+  top: 162.31px;
+  transform: rotate(228deg);
+}
+#m39{
+  left: 19.6px;
+  top: 154.99px;
+  transform: rotate(234deg);
+}
+#m41{
+  left: 9px;
+  top: 136.81px;
+  transform: rotate(246deg);
+}
+#m42{
+  left: 5.8px;
+  top: 128.71px;
+  transform: rotate(252deg);
+}
+#m43{
+  left: 3.2px;
+  top: 119.21px;
+  transform: rotate(258deg);
+}
+#m44{
+  left: 1.5px;
+  top: 111px;
+  transform: rotate(264deg);
+}
+#m46{
+  left: 1.6px;
+  top: 88px;
+  transform: rotate(276deg);
+}
+#m47{
+  left: 3px;
+  top: 78.4px;
+  transform: rotate(282deg);
+}
+#m48{
+  left: 5.6px;
+  top: 68.2px;
+  transform: rotate(288deg);
+}
+#m49{
+  left: 9.4px;
+  top: 58.2px;
+  transform: rotate(294deg);
+}
+#m51{
+  left: 19.6px;
+  top: 40.4px;
+  transform: rotate(306deg);
+}
+#m52{
+  left: 25.5px;
+  top: 32.4px;
+  transform: rotate(312deg);
+}
+#m53{
+  left: 33px;
+  top: 25px;
+  transform: rotate(318deg);
+}
+#m54{
+  left: 41.4px;
+  top: 18.6px;
+  transform: rotate(324deg);
+}
+#m56{
+  left: 58.4px;
+  top: 8.4px;
+  transform: rotate(336deg);
+}
+#m57{
+  left: 67.8px;
+  top: 4.8px;
+  transform: rotate(342deg);
+}
+#m58{
+  left: 77.6px;
+  top: 2.2px;
+  transform: rotate(348deg);
+}
+#m59{
+  left: 88px;
+  top: 0.6px;
+  transform: rotate(354deg);
+}
+
+#hours {
+  width: 7px;
+  height: 25%;
+  background-color: red;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transform-origin: bottom;
+  bottom: 50%;
+}
+
+#min {
+  width: 4px;
+  height: 35%;
+  background-color: blue;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transform-origin: bottom;
+  bottom: 50%;
+} 
+
+#sec {
+  width: 2px;
+  height: 45%;
+  background-color: green;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transform-origin: bottom;
+  bottom: 50%;
+} 
